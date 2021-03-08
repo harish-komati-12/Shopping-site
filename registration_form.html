@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>121810311012-registration form</title>
+	<style>
+		body{
+			background:lightblue;
+
+		}
+		.f{
+			margin-left: 340px;
+			margin-right:390px;	
+			padding-left: 70px;
+			padding-top: 20px;
+			border-width:2px;
+			border-color: black;
+			border-style: solid;
+			color: green;
+			font-weight: bold;
+			background-color:#e5e4d7;
+		}
+		input:hover{
+			background:skyblue;
+		}
+		input:focus{
+			background:yellow;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1 style="color:red;text-align: center;">REGISTRATION FORM</h1>
+	<hr>
+	<form class='f'>
+		<label for="first"style="padding-left: 10px" >
+			First Name:
+		</label>
+		<input type="text" id="first" name="" placeholder="First name">
+		<br>
+		<br>
+		<label for="last" style="padding-left: 10px" >
+		    Last Name :
+		</label>
+		<input type="text" id="last" name="" placeholder="Last name">
+		<br>
+		<br>
+		<label for="email" style="padding-left: 44px">Email : </label>
+        <input type="email" name="" id="email" placeholder="Enter email address">
+        <br>
+        <br>
+        <label style="padding-left: 37px">Gender:</label>
+        <input type="radio" id="male" name="gender" value="choice-1">
+         <label for="male" style="color: black;">male</label>
+		
+		<input type="radio" id="female"name="gender" value="choice-2">
+		<label for="female"style="color: black;">female</label>
+	
+		<input type="radio" id="other"name="gender" value="choice-3">
+		<label for="other"style="color: black;">other</label>
+	
+		<br>
+		<br>
+		<label for="dob">Date of Birth:</label>
+		<input type="Date" id="dob" name="">
+		<br>
+		<br>
+		<label for="Username"style="padding-left: 14px" >
+			User Name:
+		</label>
+		<input type="text" id="Username" name="" placeholder="harish_komati">
+		<br>
+		<br>
+		<label for="password" style="padding-left: 20px" >
+				Password :
+	    </label>
+        <input type="password" name="" id="password" placeholder="Enter password">
+       	<br>
+		<br>
+		<hr>
+	    <input type="checkbox" name="" id="accept" style="margin-left: 90px;">
+        <label for="accept">I agree to terms</label>
+	    <br> 
+	    <hr>
+		 <button type="submit" style="margin: 8px 0;color: red; border: solid 2px black;margin-left: 120px;">SUBMIT</button>
+		
+
+	</form>
+</body>
+</html>
